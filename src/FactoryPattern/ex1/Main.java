@@ -1,16 +1,16 @@
 package FactoryPattern.ex1;
 
-public class FactoryPatternTest {
+public class Main {
     public static void main(String[] args) {
         ShapeFactory shapeFactory = new ShapeFactory();
 
-        Shape shape1 = shapeFactory.getShape(ShapeType.CIRCLE);
+        Shape shape1 = shapeFactory.createShape(ShapeType.CIRCLE);
         shape1.draw();
 
-        Shape shape2 = shapeFactory.getShape(ShapeType.RECTANGLE);
+        Shape shape2 = shapeFactory.createShape(ShapeType.RECTANGLE);
         shape2.draw();
 
-        Shape shape3 = shapeFactory.getShape(ShapeType.SQUARE);
+        Shape shape3 = shapeFactory.createShape(ShapeType.SQUARE);
         shape3.draw();
 
     }

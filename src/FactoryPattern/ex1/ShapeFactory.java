@@ -2,7 +2,7 @@ package FactoryPattern.ex1;
 
 public class ShapeFactory {
 
-    public Shape getShape(ShapeType shapeType) {
+    public Shape createShape(ShapeType shapeType) {
         if (shapeType == null) {
             return null;
         }
