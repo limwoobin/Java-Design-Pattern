@@ -1,9 +1,9 @@
 package FactoryPattern.ex2;
 
-public class ModifiedSuperRobotFactory extends RobotFactory {
+public class ModifiedSuperRobotFactory implements RobotFactory {
 
     @Override
-    Robot createRobot(String name) {
+    public Robot createRobot(String name) {
         try {
             Class<?> cls = Class.forName(name);
             Object obj = cls.newInstance();
