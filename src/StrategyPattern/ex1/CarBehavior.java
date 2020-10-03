@@ -1,4 +1,4 @@
-package StrategyPattern;
+package StrategyPattern.ex1;
 
 public class CarBehavior {
 }
