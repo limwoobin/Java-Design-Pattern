@@ -19,27 +19,27 @@ public class PersonBuilder {
         this.weight = weight;
     }
 
-    public PersonBuilder setName(String name) {
+    public PersonBuilder name(String name) {
         this.name = name;
         return this;
     }
 
-    public PersonBuilder setAge(int age) {
+    public PersonBuilder age(int age) {
         this.age = age;
         return this;
     }
 
-    public PersonBuilder setGender(Gender gender) {
+    public PersonBuilder gender(Gender gender) {
         this.gender = gender;
         return this;
     }
 
-    public PersonBuilder setHeight(double height) {
+    public PersonBuilder height(double height) {
         this.height = height;
         return this;
     }
 
-    public PersonBuilder setWeight(double weight) {
+    public PersonBuilder weight(double weight) {
         this.weight = weight;
         return this;
     }
