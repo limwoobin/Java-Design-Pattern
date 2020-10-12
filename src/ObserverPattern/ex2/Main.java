@@ -1,6 +1,5 @@
 package ObserverPattern.ex2;
 
-import java.awt.dnd.DragGestureEvent;
 
 public class Main {
     public static void main(String[] args) {
