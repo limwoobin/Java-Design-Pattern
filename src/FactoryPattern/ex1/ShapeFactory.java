@@ -1,5 +1,8 @@
 package FactoryPattern.ex1;
 
+import FactoryPattern.ex1.impl.Circle;
+import FactoryPattern.ex1.impl.Rectangle;
+
 public class ShapeFactory {
 
     public Shape createShape(ShapeType shapeType) {
