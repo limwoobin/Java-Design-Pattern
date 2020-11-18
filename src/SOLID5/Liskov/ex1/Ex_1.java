@@ -1,4 +1,4 @@
-package SOLID5.Liskov;
+package SOLID5.Liskov.ex1;
 
 // 잘못된 예제
 public class Ex_1 {

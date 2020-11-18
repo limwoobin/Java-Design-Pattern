@@ -1,4 +1,4 @@
-package SOLID5.Liskov;
+package SOLID5.Liskov.ex1;
 
 // 수정된 코드
 public class Ex_2 {
