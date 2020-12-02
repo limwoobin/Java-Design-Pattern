@@ -1,5 +1,6 @@
 package FactoryPattern.ex7;
 
+import FactoryPattern.ex7.impl.Marine;
 import FactoryPattern.ex7.impl.UnitType;
 
 public class Main {

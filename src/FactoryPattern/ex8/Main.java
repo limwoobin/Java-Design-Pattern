@@ -1,5 +1,7 @@
 package FactoryPattern.ex8;
 
+import FactoryPattern.ex8.impl.ChocoIceCream;
+
 public class Main {
     public static void main(String[] args) {
         IceCreamFactory factory = new IceCreamFactory();
