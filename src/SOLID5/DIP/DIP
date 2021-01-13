@@ -1,0 +1,3 @@
+DIP (Dependency Inversion Principle)
+- 의존 역전 원칙이란 의존관계를 맺을때
+변화하기 쉬운 것(구현계층 - class) 보다 변화하기 어려운 것(추상계층 - interface)과 관계를 맺으라는 원칙.
