@@ -1,5 +1,6 @@
 package SOLID5.ISP.ex2;
 
+
 public class Test {
     public static void main(String[] args) {
         Factory factory = new MyFactory();
