@@ -45,8 +45,7 @@ public class PersonBuilder {
     }
 
     public PersonBuilder build() {
-        PersonBuilder personBuilder = new PersonBuilder(name , age , gender , height , weight);
-        return personBuilder;
+        return new PersonBuilder(name , age , gender , height , weight);
     }
 
 

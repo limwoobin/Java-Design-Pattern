@@ -1,17 +1,17 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Test {
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
-        list.add(1);
-        list.add(2);
-        list.add(3);
+        Set<String> set = new HashSet<>();
+        set.add("A");
+        set.add("B");
+        set.add("C");
 
-        System.out.println(list.toString());
+        System.out.println(set.toString());
 
-        list.add(1 , 4);
-        System.out.println(list.toString());
-        list.forEach(System.out::print);
+        set.remove("C");
+        System.out.println(set.toString());
+
+        set.forEach(System.out::println);
     }
 }
