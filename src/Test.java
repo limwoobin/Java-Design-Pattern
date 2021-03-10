@@ -13,5 +13,7 @@ public class Test {
         System.out.println(set.toString());
 
         set.forEach(System.out::println);
+
+        String str = "ABC";
     }
 }
